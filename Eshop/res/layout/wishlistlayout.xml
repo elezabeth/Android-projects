@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#C0C0C0" >
+
+    <CheckBox
+        android:id="@+id/check_wishlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/productimage"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_x="50dp"
+        android:layout_y="16dp"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="22dp"
+        android:text="Medium Text"
+        android:textColor="#0000A0"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="49dp"
+        android:text="U$"
+        android:textColor="#0000A0"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="52dp"
+        android:text="Medium Text"
+        android:textColor="#0000A0"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

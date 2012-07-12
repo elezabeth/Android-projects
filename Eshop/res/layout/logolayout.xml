@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/esh"
+    android:orientation="vertical" 
+    android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="250dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/withoutlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:text="Continue without login" />
+    
+</LinearLayout>

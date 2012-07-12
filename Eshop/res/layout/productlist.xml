@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      
+    >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/cate" />
+    <GridView
+        android:id="@+id/product_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:columnWidth="100px"
+        android:gravity="center"
+        android:horizontalSpacing="5px"
+        android:numColumns="5"
+        android:layout_below="@+id/imageView1"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="35px" >
+    </GridView>
+    
+</RelativeLayout>

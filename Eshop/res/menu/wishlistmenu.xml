@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/share"
+    	android:title="Share"
+        android:icon="@drawable/iconfacebook" />
+    <item android:id="@+id/delete"
+        android:title="Delete"
+        android:icon="@drawable/delete" />
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/homeicon" />
+    <item android:id="@+id/logout"
+        android:title="Exit"
+        android:icon="@drawable/logoff" />
+</menu>
